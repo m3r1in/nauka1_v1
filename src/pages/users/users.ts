@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 import { IonicPage, NavController} from 'ionic-angular';
 import { UserPage } from "./user/user";
@@ -14,11 +15,7 @@ export class UsersPage {
   onLoadUser(name: string){
     this.navCtrl.push(UserPage, {userName: name});
   }
-  // chuj wie dlaczego to nie dziala
-  ngOnInit() {
-    this.name = this.navParams.get('userName')
 
-  }
 }
 
 
