@@ -1,7 +1,7 @@
 
 import { Component } from '@angular/core';
-import { NavController} from 'ionic-angular';
-import { UserPage } from "./user/user";
+//import { NavController} from 'ionic-angular';
+
 
 
 @Component({
@@ -10,10 +10,10 @@ import { UserPage } from "./user/user";
 })
 export class UsersPage {
   constructor (private navCtrl: NavController){}
-
-  onLoadUser(name: string){
-    this.navCtrl.push(UserPage, {userName: name});
+  onLoadProduct(name: string){
+    this.navCtrl.push(BayoutPage, {productName: name});
   }
+
 
 }
 
