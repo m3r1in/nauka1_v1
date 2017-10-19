@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import {UsersPage} from "../users/users";
-import {ShopPages} from "../shop/shop";
+import {ShopPage} from "../shop/shop";
 
 @Component({
   selector: 'page-home',

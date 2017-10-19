@@ -1,17 +1,17 @@
 
 import { Component } from '@angular/core';
-//import { NavController} from 'ionic-angular';
-
+import { NavController} from 'ionic-angular';
+import {BuyoutPage} from "../buyout/buyout";
 
 
 @Component({
-  selector: 'page-users',
-  templateUrl: 'users.html',
+  selector: 'page-shop',
+  templateUrl: 'shop.html',
 })
-export class UsersPage {
+export class ShopPage {
   constructor (private navCtrl: NavController){}
   onLoadProduct(name: string){
-    this.navCtrl.push(BayoutPage, {productName: name});
+    this.navCtrl.push(BuyoutPage, {productName: name});
   }
 
 

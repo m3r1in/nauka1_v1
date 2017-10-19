@@ -8,6 +8,7 @@ import { HomePage } from '../pages/home/home';
 import { UsersPage } from "../pages/users/users";
 import { UserPage } from "../pages/users/user/user";
 import { ShopPage } from "../pages/shop/shop";
+import { BuyoutPage} from "../pages/buyout/buyout";
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { ShopPage } from "../pages/shop/shop";
     HomePage,
     UsersPage,
     UserPage,
-    ShopPage
+    ShopPage,
+    BuyoutPage
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,8 @@ import { ShopPage } from "../pages/shop/shop";
     HomePage,
     UsersPage,
     UserPage,
-    ShopPage
+    ShopPage,
+    BuyoutPage
   ],
   providers: [
     StatusBar,
